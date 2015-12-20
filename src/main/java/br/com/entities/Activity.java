@@ -8,8 +8,17 @@ public class Activity extends Animal {
 	private String ruge;
 	private String dorme;
 	private String come;
+	private String caga;
 
 	public Activity() {
+	}
+
+	public String getCaga() {
+		return caga;
+	}
+
+	public void setCaga(String caga) {
+		this.caga = caga;
 	}
 
 	public String getLate() {
