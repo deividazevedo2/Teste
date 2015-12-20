@@ -1,16 +1,24 @@
 package br.com.entities;
 
 public class House {
-	
+
 	private String rua;
 	private Long numero;
 	private String bairro;
 	private String cidade;
 	private String UF;
 	private String pais;
-	
+
 	public House() {
 		// TODO Auto-generated constructor stub
+	}
+
+	public String getPais() {
+		return pais;
+	}
+
+	public void setPais(String pais) {
+		this.pais = pais;
 	}
 
 	public String getRua() {
@@ -107,7 +115,5 @@ public class House {
 			return false;
 		return true;
 	}
-	
-	
 
 }
