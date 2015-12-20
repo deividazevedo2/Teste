@@ -7,6 +7,7 @@ public class House {
 	private String bairro;
 	private String cidade;
 	private String UF;
+	private String pais;
 	
 	public House() {
 		// TODO Auto-generated constructor stub
