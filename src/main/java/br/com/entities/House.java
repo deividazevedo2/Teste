@@ -8,9 +8,17 @@ public class House {
 	private String cidade;
 	private String UF;
 	private String pais;
+	private String pontoDeReferencia;
 
 	public House() {
-		// TODO Auto-generated constructor stub
+	}
+
+	public String getPontoDeReferencia() {
+		return pontoDeReferencia;
+	}
+
+	public void setPontoDeReferencia(String pontoDeReferencia) {
+		this.pontoDeReferencia = pontoDeReferencia;
 	}
 
 	public String getPais() {
