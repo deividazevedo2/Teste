@@ -1,15 +1,24 @@
 package br.com.entities;
 
 public class Animal {
-	
+
 	private String gato;
 	private String cachorro;
 	private String cavalo;
 	private String urso;
 	private String bode;
 	private String cabra;
-	
+	private String zebra;
+
 	public Animal() {
+	}
+
+	public String getZebra() {
+		return zebra;
+	}
+
+	public void setZebra(String zebra) {
+		this.zebra = zebra;
 	}
 
 	public String getGato() {
@@ -59,7 +68,5 @@ public class Animal {
 	public void setCabra(String cabra) {
 		this.cabra = cabra;
 	}
-	
-	
 
 }
