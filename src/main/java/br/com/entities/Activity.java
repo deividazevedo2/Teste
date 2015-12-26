@@ -9,8 +9,17 @@ public class Activity extends Animal {
 	private String dorme;
 	private String come;
 	private String caga;
+	private String mija;
 
 	public Activity() {
+	}
+
+	public String getMija() {
+		return mija;
+	}
+
+	public void setMija(String mija) {
+		this.mija = mija;
 	}
 
 	public String getCaga() {
