@@ -1,15 +1,25 @@
 package br.com.embedded;
 
 public class Endereco {
-	
+
 	private String rua;
 	private Integer numero;
 	private String bairro;
 	private String cidade;
 	private String CEP;
 	private String UF;
-	
+
 	public Endereco() {
+	}
+
+	public Endereco(String rua, Integer numero, String bairro, String cidade,
+			String CEP, String UF) {
+		this.rua = rua;
+		this.numero = numero;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		this.CEP = CEP;
+		this.UF = UF;
 	}
 
 	public String getRua() {
@@ -59,7 +69,5 @@ public class Endereco {
 	public void setUF(String uF) {
 		UF = uF;
 	}
-	
-	
 
 }
