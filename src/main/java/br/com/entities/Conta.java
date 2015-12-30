@@ -8,6 +8,11 @@ public class Conta {
 
 	private String senha;
 
+	public Conta(String login, String senha) {
+		this.login = login;
+		this.senha = senha;
+	}
+
 	public Conta() {
 	}
 

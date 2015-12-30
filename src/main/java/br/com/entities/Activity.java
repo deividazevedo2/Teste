@@ -11,6 +11,12 @@ public class Activity extends Animal {
 	private String caga;
 	private String mija;
 
+	@SuppressWarnings("unused")
+	private Activity(String late) {
+		this.late = late;
+
+	}
+
 	public Activity() {
 	}
 

@@ -8,8 +8,17 @@ public class User {
 	private Integer age;
 	private String cpf;
 	private String rg;
+	private String nascimento;
 
 	public User() {
+	}
+
+	public String getNascimento() {
+		return nascimento;
+	}
+
+	public void setNascimento(String nascimento) {
+		this.nascimento = nascimento;
 	}
 
 	public String getFirstName() {
@@ -51,7 +60,7 @@ public class User {
 	public void setRg(String rg) {
 		this.rg = rg;
 	}
-	
+
 	public Integer getId() {
 		return id;
 	}
@@ -123,6 +132,5 @@ public class User {
 			return false;
 		return true;
 	}
-
 
 }
