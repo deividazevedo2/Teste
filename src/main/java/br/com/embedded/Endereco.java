@@ -9,17 +9,18 @@ public class Endereco {
 	private String CEP;
 	private String UF;
 
-	public Endereco() {
-	}
-
 	public Endereco(String rua, Integer numero, String bairro, String cidade,
 			String CEP, String UF) {
+		super();
 		this.rua = rua;
 		this.numero = numero;
 		this.bairro = bairro;
 		this.cidade = cidade;
 		this.CEP = CEP;
 		this.UF = UF;
+	}
+
+	public Endereco() {
 	}
 
 	public String getRua() {
