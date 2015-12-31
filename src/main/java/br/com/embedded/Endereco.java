@@ -20,9 +20,6 @@ public class Endereco {
 		this.UF = UF;
 	}
 
-	public Endereco() {
-	}
-
 	public String getRua() {
 		return rua;
 	}
