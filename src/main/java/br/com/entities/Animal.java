@@ -10,9 +10,6 @@ public class Animal {
 	private String cabra;
 	private String zebra;
 
-	public Animal() {
-	}
-
 	public String getZebra() {
 		return zebra;
 	}
