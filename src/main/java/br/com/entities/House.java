@@ -10,9 +10,6 @@ public class House {
 	private String pais;
 	private String pontoDeReferencia;
 
-	public House() {
-	}
-
 	public String getPontoDeReferencia() {
 		return pontoDeReferencia;
 	}
