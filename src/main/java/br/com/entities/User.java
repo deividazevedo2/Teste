@@ -10,9 +10,6 @@ public class User {
 	private String rg;
 	private String nascimento;
 
-	public User() {
-	}
-
 	public String getNascimento() {
 		return nascimento;
 	}
